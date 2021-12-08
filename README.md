@@ -8,6 +8,10 @@
 
 `git commit --amend --only -m 'A new message that will override the original message.'`
 
+### Move changes from one branch to another
+
+`git checkout target_branch path/to/file/relative/to/current/location.cs`
+
 ## Reverting
 
 ### Revert last commit (keep changes)
@@ -17,6 +21,12 @@
 ### Revert last commit (discard changes)
 
 `git reset --hard HEAD~1`
+
+## Data collection
+
+### Different files between two branches
+
+`git checkout source_branch; git diff target_branch --name-only`
 
 ## How to write a good commit message
 
