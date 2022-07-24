@@ -28,6 +28,16 @@
 
 `git checkout source_branch; git diff target_branch --name-only`
 
+## Feature branch split for smaller PR
+
+```git
+git checkout develop
+git pull
+git checkout -b new_branch_for_pull_request
+git checkout feature_branch_with_all_changes src/path/to/file.cs
+git checkout feature_branch_with_all_changes src/path/to/anotherfile.cs
+```
+
 ## How to write a good commit message
 
 * Separate subject from body with a blank line.
