@@ -24,7 +24,7 @@
 
 ### Wipe everything (discard all changes and modifications, files)
 
-`git reset –hard. git clean -fxd`
+`git reset –hard && git clean -fxd`
 
 ## Data collection
 
