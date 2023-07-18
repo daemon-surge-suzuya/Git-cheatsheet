@@ -22,6 +22,10 @@
 
 `git reset --hard HEAD~1`
 
+### Wipe everything (discard all changes and modifications, files)
+
+`git reset –hard. git clean -fxd`
+
 ## Data collection
 
 ### Different files between two branches
