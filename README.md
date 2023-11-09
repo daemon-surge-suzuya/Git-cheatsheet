@@ -26,6 +26,20 @@
 
 `git reset –hard && git clean -fxd`
 
+# Stashing (Temporary Storage of Changes)
+
+### Stash changes for later
+
+`git stash save "Description of changes"`
+
+### Apply stashed changes
+
+`git stash apply stash@{n}`
+
+### List stashes
+
+`git stash list`
+
 ## Data collection
 
 ### Different files between two branches
