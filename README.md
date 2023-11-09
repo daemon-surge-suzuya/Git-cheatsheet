@@ -26,7 +26,7 @@
 
 `git reset –hard && git clean -fxd`
 
-# Stashing (Temporary Storage of Changes)
+## Stashing (Temporary Storage of Changes)
 
 ### Stash changes for later
 
